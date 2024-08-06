@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <GlobalStyle/>
-    <Robot/>
+    <Robot tipo="Ultron" cargo="Herói da Marvel" identificador="1968"/>
     </>
   )
 }
