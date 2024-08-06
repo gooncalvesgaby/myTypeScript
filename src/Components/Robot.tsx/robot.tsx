@@ -7,15 +7,19 @@ type RobotProps = {
     identificador: string;
 };
 
-function Robot({tipo, cargo, identificador} : RobotProps) {
+function Robot({ tipo, cargo, identificador }: RobotProps) {
 
-    return(
+    return (
         <S.Div className="robot">
-            <img src={Robo} alt="Robo Ultron" />
-            <h1>{tipo}</h1>
-            <h3>{cargo}</h3>
-            <h4>{identificador}</h4>
-        </S.Div>
+            <S.Section>
+                <S.Div2>
+                    <img src={Robo} alt="Robo Ultron" />
+                    <h1>{tipo}</h1>
+                    <h3>{cargo}</h3>
+                    <h4>{identificador}</h4>
+                </S.Div2>
+            </S.Section>
+        </S.Div >
     )
 }
 
