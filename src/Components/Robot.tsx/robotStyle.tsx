@@ -13,10 +13,6 @@ letter-spacing: 1.5px;
 min-height: 100vh;
 `
 
-export const Div2 = styled.div`
-
-`
-
 export const Section = styled.section`
 display: grid;
 align-items: center;
