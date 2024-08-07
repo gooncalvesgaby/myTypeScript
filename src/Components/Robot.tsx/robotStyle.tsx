@@ -18,12 +18,12 @@ display: grid;
 align-items: center;
 `
 
-export const Div3 = styled.div`
+export const Container = styled.div`
 background: linear-gradient(to right, #8d6565fc, #b65e57);
 border-radius: 8rem 4rem;
 `
 
-export const Div4 = styled.div`
+export const Content = styled.div`
 border-radius: 4rem 8rem;
 background: linear-gradient(to right, #b65e57, #8d6565fc);
 `

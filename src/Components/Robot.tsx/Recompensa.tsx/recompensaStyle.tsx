@@ -6,7 +6,7 @@ display: contents;
 font-size: 0.9em;
 `
 
-export const Div2 = style.div`
+export const Container = style.div`
 display: flex;
 justify-content: center;
 align-items: center;

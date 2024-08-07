@@ -31,15 +31,15 @@ function Robot({ tipo, cargo, identificador }: RobotProps) {
                         <div>
                             <img src={Robo} alt="Robo Ultron" />
                         </div>
-                        <S.Div3>
+                        <S.Container>
                             <h1>{tipo}</h1>
                             <h3>{cargo}</h3>
                             <h4>{identificador}</h4>
-                        </S.Div3>
+                        </S.Container>
                     </div>
-                    <S.Div4>
+                    <S.Content>
                         <Recompensa valorRecompensa={10} />
-                    </S.Div4>
+                    </S.Content>
                 </S.Section>
             </S.Div >
         </>

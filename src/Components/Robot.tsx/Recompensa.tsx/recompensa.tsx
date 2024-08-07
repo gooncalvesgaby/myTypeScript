@@ -49,7 +49,7 @@ function Recompensa({ valorRecompensa }: RecompensaProps) {
       <h3>Seu preço</h3>
       <p>{recompensa.toLocaleString()} $ é meu preço</p>
       <form onSubmit={handleSubmit}>
-        <S.Div2>
+        <S.Container>
           <input
             type="number"
             value={novoValor}
@@ -57,7 +57,7 @@ function Recompensa({ valorRecompensa }: RecompensaProps) {
             placeholder="Definir novo preço"
           />
           <S.Button type="submit">Atualizar preço</S.Button>
-        </S.Div2>
+        </S.Container>
       </form>
     </S.Div>
   );
